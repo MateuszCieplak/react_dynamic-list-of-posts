@@ -11,7 +11,7 @@ type Props = {
   handleTitleComment: (e: React.ChangeEvent<HTMLInputElement>) => void;
   handleEmailComment: (e: React.ChangeEvent<HTMLInputElement>) => void;
   handleBodyComment: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
-  handleSubmitAddCommentToPost: (e: React.ChangeEvent<HTMLFormElement>) => void;
+  handleSubmitAddCommentToPost: (e: React.FormEvent<HTMLFormElement>) => void;
   handleClearButton: () => void;
 };
 

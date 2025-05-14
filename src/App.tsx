@@ -117,7 +117,7 @@ export const App = () => {
   };
 
   const handleSubmitAddCommentToPost = (
-    e: React.ChangeEvent<HTMLFormElement>,
+    e: React.FormEvent<HTMLFormElement>,
   ) => {
     e.preventDefault();
     if (inputTitleValue === '') {
